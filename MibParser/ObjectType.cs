@@ -3,7 +3,7 @@ using System;
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    internal sealed class ObjectType : IEntity
+    public sealed class ObjectType : IEntity
     {
         private readonly string _module;
         private string _parent;

@@ -1,6 +1,6 @@
 namespace Lextm.SharpSnmpLib.Mib
 {
-    internal class CustomType : ITypeAssignment
+    public class CustomType : ITypeAssignment
     {
         public CustomType(string module, string name, Lexer lexer)
         {

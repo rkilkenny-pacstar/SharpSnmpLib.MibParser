@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    internal class OctetStringType : TypeAssignmentBase
+    public class OctetStringType : TypeAssignmentBase
     {
         private string _module;
         private string _name;

@@ -8,10 +8,10 @@
  */
 namespace Lextm.SharpSnmpLib.Mib
 {
-    /// <summary>
-    /// The INTEGER type represents a list of alternatives..
-    /// </summary>
-    internal sealed class Integer : ITypeAssignment
+	/// <summary>
+	/// The INTEGER type represents a list of alternatives..
+	/// </summary>
+	public sealed class Integer : ITypeAssignment
     {
         /// <summary>
         /// Creates a <see cref="Choice"/> instance.

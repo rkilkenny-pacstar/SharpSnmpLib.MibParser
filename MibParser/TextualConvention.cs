@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    internal sealed class TextualConvention : ITypeAssignment
+	public sealed class TextualConvention : ITypeAssignment
     {
         private readonly string _name;
         private readonly DisplayHint _displayHint;

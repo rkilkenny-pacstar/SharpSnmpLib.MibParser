@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    class ObjectIdentifierType : ITypeAssignment
+	public class ObjectIdentifierType : ITypeAssignment
     {
         private string _module;
         private string _name;

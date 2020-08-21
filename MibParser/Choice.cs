@@ -12,7 +12,7 @@ namespace Lextm.SharpSnmpLib.Mib
     /// <summary>
     /// The CHOICE type represents a list of alternatives..
     /// </summary>
-    internal sealed class Choice : ITypeAssignment
+    public sealed class Choice : ITypeAssignment
     {
         private string _name;
 

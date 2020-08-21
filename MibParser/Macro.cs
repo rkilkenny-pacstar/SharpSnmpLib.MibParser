@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    internal sealed class Macro : ITypeAssignment
+	public sealed class Macro : ITypeAssignment
     {
         private string _name;
 
