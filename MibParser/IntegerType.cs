@@ -22,7 +22,7 @@ namespace Lextm.SharpSnmpLib.Mib
      * do not care about detecting incorrect MIBs and this doesn't block the
      * decoding of correct MIBs.
      */
-    internal sealed class IntegerType : TypeAssignmentBase
+    public sealed class IntegerType : TypeAssignmentBase
     {
         private bool _isEnumeration;
         private IDictionary<int, string> _map;

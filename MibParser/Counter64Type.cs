@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    class Counter64Type : ITypeAssignment
+    public class Counter64Type : ITypeAssignment
     {
         private string _module;
         private string _name;

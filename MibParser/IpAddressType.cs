@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    class IpAddressType : ITypeAssignment
+    public class IpAddressType : ITypeAssignment
     {
         private string _module;
         private string _name;

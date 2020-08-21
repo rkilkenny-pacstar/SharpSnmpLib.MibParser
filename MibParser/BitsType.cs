@@ -2,7 +2,7 @@
 
 namespace Lextm.SharpSnmpLib.Mib
 {
-    internal class BitsType : TypeAssignmentBase
+    public class BitsType : TypeAssignmentBase
     {
         private string _module;
         private string _name;
